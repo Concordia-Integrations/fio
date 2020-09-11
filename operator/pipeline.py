@@ -1,7 +1,10 @@
+#TODO: made imports dynamic
+
 from plugins.triggers import TriggerExample
 from plugins.inputs import InputExample
 from plugins.transforms import TransformExample
 from plugins.outputs import OutputExample
+from plugins.outputs import OutputStdout
 import queue
 import importlib
 import threading
